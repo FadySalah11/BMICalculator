@@ -2,7 +2,13 @@
 //  BMI.swift
 //  BMI Calculator
 //
-//  Created by Folio on 12/02/2023.
+//  Created by Fady Salah on 12/02/2023.
 //
 
-import Foundation
+import UIKit
+
+struct BMI{
+    let value : Float
+    let advice : String
+    let color : UIColor
+}
